@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ServiceActivity" >
+
+    <Button
+        android:id="@+id/sf_ergebnis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/ergebnis" />
+
+    <TextView
+        android:id="@+id/tx_ergebnis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/sf_ergebnis"
+        android:layout_alignBottom="@+id/sf_ergebnis"
+        android:layout_toRightOf="@+id/sf_ergebnis"
+        android:text="@string/Runnable_Objekt" />
+
+    <TextView
+        android:id="@+id/tx_ergebnis_Msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tx_ergebnis"
+        android:layout_below="@+id/sf_ergebnis"
+        android:layout_marginTop="16dp"
+        android:text="@string/ergebnis_msgview" />
+
+    <Button
+        android:id="@+id/sf_ergebnis_msg_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/sf_ergebnis"
+        android:layout_alignRight="@+id/sf_ergebnis"
+        android:layout_below="@+id/sf_ergebnis"
+        android:text="@string/msg_service" />
+
+    <Button
+        android:id="@+id/sf_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="@string/l_schen" />
+
+</RelativeLayout>

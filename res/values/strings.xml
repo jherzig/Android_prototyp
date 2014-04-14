@@ -4,5 +4,12 @@
     <string name="app_name">Android_prototyp</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_runnable_objekt">RunnableObjektActivity</string>
+    <string name="Runnable_Objekt">Runnable Objekt</string>
+    <string name="service">Service</string>
+    <string name="ergebnis">Ergebnis</string>
+    <string name="ergebnis_msgview">Ergebnis MsgView</string>
+    <string name="msg_service">MSG Service</string>
+    <string name="l_schen">Löschen</string>
 
 </resources>
